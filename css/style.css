@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body{
+    background-color: honeydew;
+    background-repeat: no-repeat;
+}
+#container{
+    margin-bottom: 50px;
+    width: 1050px;
+    margin: 70px auto;
+    background-color: rgb(196, 122, 134);
+    padding-bottom: 60px;
+    box-shadow: crimson 3px 3px 10px 5px;
+    /* border-radius: 50px; */
+    border-bottom: left-radius 50px;
+
+}
+
+
+/* Navigation Styles */
+nav{ 
+    /* border: 2px solid brown */
+    padding: 25px; 
+    background-color: bisque;
+
+}
+
+nav #logo{
+    text-decoration: none;
+    /* border: 2px solid purple; */
+    /* text-shadow: darkblue 5px 5px 10px */
+    /* font-weight: bolder; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: maroon;
+    font-size: 35px;
+    /* box-shadow: 3px 3px 10px 4px red; */
+
+}
+
+
+
+nav ul{
+    /* border: 2px solid gray; */
+    width: 700px;
+    float: right;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: maroon;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* =========================================================== */
+
+/* Banner Styles */
+#banner{
+    width: 100%;
+    height: 450px;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+   
+ content area style
+    #content area{
+        border: 2px solid pink;
+        width: 650px;
+        margin: 60px auto;
+        text-align: center;
+    }
+
+    #content-area h1{
+    text-transform: uppercase;
+    margin: 10px;
+    }
+
+    #content-area p{
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+
+    #content-area button{
+        width: 200px;
+        color: palevioletred;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+
+/* Footer Styles */
+footer{
+    text-align: center;
+    width: 700;
+    margin: 40px auto;
+}
+
+
+/* ABOUT style */
+
+image{
+    width: 400px;
+    height: 600px;
+
+}
+
+    #content{
+        width: 500px;
+        margin: 60px auto;
+        float: right;
+        text-align: center;
+
+    }
+
+    #content h1{
+        font-size: 20px;
+        color: maroon;
+    }
+
+#content p{
+    margin: 10px;
+    color: plum;
+    font-size: 30px;
+}
+
+#content button{
+    border-radius: 30px;
+    font-size: 20px;
+    color: salmon;
+    cursor: pointer;
+    
+}
+
+/* Gallery Styles */
+.gallery-head{
+    border: 2px solid red;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.gallery img{
+    width: 270px;
+    height: 180px;
+    padding: 20px;
+    margin-left: 25px;
+    transition: 1s;
+
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px green green green red;
+}
+
+/* Contacts Styles */
+/* FORM AREA */
+#form-area{
+    text-align:justify;
+    margin: 20px 40px;
+}
+/* ================================================================================================== */
+/* ================================================================================================== */
+
+/* CONTACT STYLING */
+.content-area{
+    width: 1046px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(159, 201, 197);
+    /* border: 2px solid red; */
+    /* border-radius: 50px; */
+}
+.section1{
+    border: 2px solid black;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 2px;
+}
+#sect1{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#sect2{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#sect3{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section2{
+    /* border: 2px solid black; */
+    width:100%;
+    height: 40vh;
+    text-align: center;
+    margin-top: 2px;
+    /* padding: 10px; */
+}
+
+/* CONTACT2 STYLING */
+.contact-area{
+    width: 1046px;
+    margin: 0px;
+
+}
+.section1{
+    border: 2px solid black;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 2px;
+}
+.sect1{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sect2{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sect3{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#sect3 a{
+    border: 1px solid black;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 5px;
+    color: black;
+}
+
+.Section2{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+.Section2 .contact{
+    margin: 10px;
+    display: inline-block;
+}
+
+.Section2 .contact label{
+    font-size: 20px;
+}
+
+.Section2 .contact input{
+    padding: 10px;
+}
+
+.area label{
+    font-size: 20px;
+}
+
+
+
+/* Footer Styles */
+footer{
+    text-align: center;
+    width: 700px;
+    margin: 90px auto;
+}
